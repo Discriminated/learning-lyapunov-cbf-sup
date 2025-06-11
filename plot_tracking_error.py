@@ -12,7 +12,7 @@ rcParams['font.size'] = 12
 data = np.load("training_data_uav.npz")
 e = data["e"]
 
-dt = 0.05
+dt = 10
 time = np.arange(len(e)) * dt
 tracking_error = e[:, 0]
 
