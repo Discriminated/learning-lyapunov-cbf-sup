@@ -25,7 +25,7 @@ dde_interested = de[:, 1]
 length = len(e)
 
 # important parameters
-lambda_val = 0.1
+lambda_val = 0.0
 num_epochs = 100
 learning_rate = 1e-2
 gamma = 1e-4

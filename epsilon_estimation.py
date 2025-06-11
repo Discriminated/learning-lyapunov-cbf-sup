@@ -19,7 +19,7 @@ e_interested = e[:, 0]
 de_interested = e[:, 1]
 dde_interested = de[:, 1]
 
-lambda_val = 0.1
+lambda_val = 0.0
 
 # match training structure from stability_proof.py
 E_interested = np.column_stack((e_interested, de_interested))

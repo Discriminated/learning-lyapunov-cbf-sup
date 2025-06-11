@@ -23,7 +23,7 @@ latex_block = (
 with open("epsilon.txt", "r") as f:
     epsilon_val = float(f.read().strip())
 
-lambda_val = 0.1
+lambda_val = 0.0
 
 
 with open("lyapunov_training_report.tex", "r") as f:
